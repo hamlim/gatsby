@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.12.0",
-    "flat": "^4.0.0",
+    "flat": "^4.1.1",
     "graphql-request": "^1.4.0",
     "libhoney": "^1.0.0-beta.10"
   }
