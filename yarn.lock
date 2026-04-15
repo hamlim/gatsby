@@ -696,10 +696,11 @@ axios@^1.12.0:
     proxy-from-env "^2.1.0"
 
 axios@contentful/axios#fix/https-via-http-proxy:
-  version "0.16.2"
-  resolved "https://codeload.github.com/contentful/axios/tar.gz/e9a9c62ce02115f7a4d7f197ba43362dcf0ea3d0"
+  version "0.17.1"
+  uid "4b06f4a63db3ac16c99f7c61b584ef0e6d11f1af"
+  resolved "git+ssh://git@github.com/contentful/axios.git#4b06f4a63db3ac16c99f7c61b584ef0e6d11f1af"
   dependencies:
-    follow-redirects "^1.2.3"
+    follow-redirects "^1.2.5"
     is-buffer "^1.1.5"
 
 axobject-query@^0.1.0:
@@ -5232,9 +5233,13 @@ focus-group@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/focus-group/-/focus-group-0.3.1.tgz#e0f32ed86b0dabdd6ffcebdf898ecb32e47fedce"
 
-follow-redirects@^1.0.0, follow-redirects@^1.15.11, follow-redirects@^1.2.3:
+follow-redirects@^1.0.0, follow-redirects@^1.15.11:
   version "1.15.11"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.11.tgz#777d73d72a92f8ec4d2e410eb47352a56b8e8340"
+
+follow-redirects@^1.2.5:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.16.0.tgz#28474a159d3b9d11ef62050a14ed60e4df6d61bc"
 
 for-each@^0.3.2:
   version "0.3.2"
