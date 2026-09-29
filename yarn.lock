@@ -7857,8 +7857,8 @@ jimp@^0.2.24:
     url-regex "^3.0.0"
 
 joi@18.x.x:
-  version "18.2.1"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-18.2.1.tgz#a022e39496e25b010a6d4649975c160a4315bd79"
+  version "18.2.6"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-18.2.6.tgz#f64f9460f995958e989951d11deac4353838843c"
   dependencies:
     "@hapi/address" "^5.1.1"
     "@hapi/formula" "^3.0.2"
