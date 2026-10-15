@@ -3596,13 +3596,23 @@ create-error-class@^3.0.0, create-error-class@^3.0.1:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-create-hash@^1.1.0, create-hash@~1.1.3:
+create-hash@^1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/create-hash/-/create-hash-1.1.3.tgz#606042ac8b9262750f483caddab0f5819172d8fd"
   dependencies:
     cipher-base "^1.0.1"
     inherits "^2.0.1"
     ripemd160 "^2.0.0"
+    sha.js "^2.4.0"
+
+create-hash@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/create-hash/-/create-hash-1.2.0.tgz#889078af11a63756bcfb59bd221996be3a9ef196"
+  dependencies:
+    cipher-base "^1.0.1"
+    inherits "^2.0.1"
+    md5.js "^1.3.4"
+    ripemd160 "^2.0.1"
     sha.js "^2.4.0"
 
 create-hmac@^1.1.0, create-hmac@^1.1.2:
@@ -6566,6 +6576,15 @@ hash-base@^3.0.0:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+hash-base@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/hash-base/-/hash-base-3.1.2.tgz#79d72def7611c3f6e3c3b5730652638001b10a74"
+  dependencies:
+    inherits "^2.0.4"
+    readable-stream "^2.3.8"
+    safe-buffer "^5.2.1"
+    to-buffer "^1.2.1"
 
 hash.js@^1.0.0, hash.js@^1.0.3:
   version "1.1.3"
@@ -10720,15 +10739,15 @@ pbkdf2-compat@2.0.1:
   resolved "https://registry.yarnpkg.com/pbkdf2-compat/-/pbkdf2-compat-2.0.1.tgz#b6e0c8fa99494d94e0511575802a59a5c142f288"
 
 pbkdf2@^3.0.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.1.3.tgz#8be674d591d65658113424592a95d1517318dd4b"
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.1.7.tgz#8c707645f9291f232ba84e24231819eae30402b1"
   dependencies:
-    create-hash "~1.1.3"
+    create-hash "^1.2.0"
     create-hmac "^1.1.7"
-    ripemd160 "=2.0.1"
+    ripemd160 "^2.0.3"
     safe-buffer "^5.2.1"
-    sha.js "^2.4.11"
-    to-buffer "^1.2.0"
+    sha.js "^2.4.12"
+    to-buffer "^1.2.2"
 
 pend@~1.2.0:
   version "1.2.0"
@@ -11543,6 +11562,10 @@ process-nextick-args@^1.0.6, process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
 
+process-nextick-args@~2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
+
 process@^0.11.0:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
@@ -12177,6 +12200,18 @@ readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable
     process-nextick-args "~1.0.6"
     safe-buffer "~5.1.1"
     string_decoder "~1.0.3"
+    util-deprecate "~1.0.1"
+
+readable-stream@^2.3.8:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.8.tgz#91125e8042bba1b9887f49345f6277027ce8be9b"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
 readable-stream@^3.0.6:
@@ -13000,12 +13035,19 @@ ripemd160@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/ripemd160/-/ripemd160-0.2.0.tgz#2bf198bde167cacfa51c0a928e84b68bbe171fce"
 
-ripemd160@=2.0.1, ripemd160@^2.0.0:
+ripemd160@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ripemd160/-/ripemd160-2.0.1.tgz#0f4584295c53a3628af7e6d79aca21ce57d1c6e7"
   dependencies:
     hash-base "^2.0.0"
     inherits "^2.0.1"
+
+ripemd160@^2.0.1, ripemd160@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/ripemd160/-/ripemd160-2.0.3.tgz#9be54e4ba5e3559c8eee06a25cd7648bbccdf5a8"
+  dependencies:
+    hash-base "^3.1.2"
+    inherits "^2.0.4"
 
 rn-host-detect@^1.0.1:
   version "1.1.3"
@@ -13469,7 +13511,7 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-sha.js@^2.4.11:
+sha.js@^2.4.12:
   version "2.4.12"
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.12.tgz#eb8b568bf383dfd1867a32c3f2b74eb52bdbf23f"
   dependencies:
@@ -14244,6 +14286,12 @@ string_decoder@~1.0.0, string_decoder@~1.0.3:
   dependencies:
     safe-buffer "~5.1.0"
 
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  dependencies:
+    safe-buffer "~5.1.0"
+
 stringify-entities@^1.0.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-1.3.1.tgz#b150ec2d72ac4c1b5f324b51fb6b28c9cdff058c"
@@ -14766,6 +14814,14 @@ to-arraybuffer@^1.0.0:
 to-buffer@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/to-buffer/-/to-buffer-1.2.1.tgz#2ce650cdb262e9112a18e65dc29dcb513c8155e0"
+  dependencies:
+    isarray "^2.0.5"
+    safe-buffer "^5.2.1"
+    typed-array-buffer "^1.0.3"
+
+to-buffer@^1.2.1, to-buffer@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/to-buffer/-/to-buffer-1.2.2.tgz#ffe59ef7522ada0a2d1cb5dfe03bb8abc3cdc133"
   dependencies:
     isarray "^2.0.5"
     safe-buffer "^5.2.1"
