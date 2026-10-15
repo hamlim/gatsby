@@ -4291,13 +4291,13 @@ dom-serializer@0, dom-serializer@~0.1.0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-dom-serializer@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-2.0.0.tgz#e41b802e1eedf9f6cae183ce5e622d789d7d8e53"
+dom-serializer@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-3.1.1.tgz#54be70ee4fcc2da010f488165e62294798dc57d3"
   dependencies:
-    domelementtype "^2.3.0"
-    domhandler "^5.0.2"
-    entities "^4.2.0"
+    domelementtype "^3.0.0"
+    domhandler "^6.0.0"
+    entities "^8.0.0"
 
 dom-urls@^1.1.0:
   version "1.1.0"
@@ -4317,9 +4317,9 @@ domelementtype@1, domelementtype@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.3.0.tgz#b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
 
-domelementtype@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
+domelementtype@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-3.0.0.tgz#e6c0a24bd39ca5eb7ea67a98d2f699497d7bcc55"
 
 domelementtype@~1.1.1:
   version "1.1.3"
@@ -4337,11 +4337,11 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-domhandler@^5.0.2, domhandler@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-5.0.3.tgz#cc385f7f751f1d1fc650c21374804254538c7d31"
+domhandler@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-6.0.1.tgz#75f351a03a6e10c35e08418f9cf0d287e00797cf"
   dependencies:
-    domelementtype "^2.3.0"
+    domelementtype "^3.0.0"
 
 domready@^1.0.8:
   version "1.0.8"
@@ -4367,13 +4367,13 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-domutils@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-3.2.2.tgz#edbfe2b668b0c1d97c24baf0f1062b132221bc78"
+domutils@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-4.0.2.tgz#0c1ac1fdbe8f554a60a6f5eb143ee85630327c94"
   dependencies:
-    dom-serializer "^2.0.0"
-    domelementtype "^2.3.0"
-    domhandler "^5.0.3"
+    dom-serializer "^3.0.0"
+    domelementtype "^3.0.0"
+    domhandler "^6.0.0"
 
 dot-case@^2.1.0:
   version "2.1.1"
@@ -4589,13 +4589,9 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-entities@^4.2.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
-
-entities@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-7.0.1.tgz#26e8a88889db63417dcb9a1e79a3f1bc92b5976b"
+entities@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-8.0.0.tgz#c1df5fe3602429747fa233d0dd26f142f0ce4743"
 
 err-code@^1.0.0:
   version "1.1.2"
@@ -6658,14 +6654,14 @@ html-whitespace-sensitive-tag-names@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/html-whitespace-sensitive-tag-names/-/html-whitespace-sensitive-tag-names-1.0.0.tgz#fd6ed3a3d631ce29341aefe26a8fea720d3adfa7"
 
-htmlparser2@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-10.1.0.tgz#fe3f2e12c73b6e462d4e10395db9c1119e4d6ae4"
+htmlparser2@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-12.0.0.tgz#6a679d0f57c525990f9cbad8a585b320ecc6d198"
   dependencies:
-    domelementtype "^2.3.0"
-    domhandler "^5.0.3"
-    domutils "^3.2.2"
-    entities "^7.0.1"
+    domelementtype "^3.0.0"
+    domhandler "^6.0.0"
+    domutils "^4.0.2"
+    entities "^8.0.0"
 
 htmlparser2@^3.9.1:
   version "3.9.2"
@@ -12765,12 +12761,12 @@ sanitize-filename@^1.6.1:
     truncate-utf8-bytes "^1.0.0"
 
 sanitize-html@^2.12.1:
-  version "2.17.5"
-  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.17.5.tgz#bef1d103773760e1c52a01b1f58178bee9c10556"
+  version "2.17.7"
+  resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.17.7.tgz#b16417c348ea5f99c2451964b6e6621ca6b1da94"
   dependencies:
     deepmerge "^4.2.2"
     escape-string-regexp "^4.0.0"
-    htmlparser2 "^10.1.0"
+    htmlparser2 "^12.0.0"
     is-plain-object "^5.0.0"
     launder "^1.7.1"
     parse-srcset "^1.0.2"
